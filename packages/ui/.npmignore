@@ -1,0 +1,13 @@
+node_modules
+/typings
+/src
+/css
+/vite.config.ts
+/tsconfig.json
+/.storybook
+/public
+/tailwind.config.js
+/postcss.config.js
+/vercel.json
+yarn-error.log
+yarn.lock

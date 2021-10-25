@@ -1,0 +1,45 @@
+{
+  "name": "@nazaire/vue-kit",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./dist/vue-kit.umd.js",
+  "module": "./dist/vue-kit.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-kit.es.js",
+      "require": "./dist/vue-kit.umd.js"
+    }
+  },
+  "author": "Dylan Kay",
+  "license": "ISC",
+  "repository": "git@github.com:Nazaire/vue-kit.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "dev": "vite build",
+    "build": "NODE_ENV=production vite build"
+  },
+  "dependencies": {
+    "nanoid": "^3.1.30"
+  },
+  "peerDependencies": {
+    "@heroicons/vue": "^1.0.4",
+    "lodash": "^4.17.21",
+    "tailwindcss": "^2.2.16",
+    "vue": "^3.2.19",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.175",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "lodash": "^4.17.21",
+    "typescript": "^4.4.4",
+    "vite": "^2.6.10",
+    "vite-plugin-dts": "^0.9.1",
+    "vue": "^3.2.19",
+    "vue-loader": "^15.9.8",
+    "vue-router": "^4.0.12"
+  }
+}
