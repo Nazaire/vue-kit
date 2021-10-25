@@ -1,4 +1,4 @@
-import { defineProvider, NotificationController } from "@vtw-toolkit/core";
+import { defineProvider, NotificationController } from "@nazaire/vue-kit";
 import { Notification, NotificationProps } from "~/components/notification";
 
 /**

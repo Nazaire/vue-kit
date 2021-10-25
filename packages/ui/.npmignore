@@ -2,6 +2,7 @@ node_modules
 /typings
 /src
 /css
+/docs
 /vite.config.ts
 /tsconfig.json
 /.storybook

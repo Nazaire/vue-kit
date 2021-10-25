@@ -1,14 +1,14 @@
 {
-  "name": "@nazaire/vue-tw-kit",
+  "name": "@nazaire/vtw-ui",
   "version": "0.0.0",
   "description": "",
-  "main": "./dist/vue-tw-kit.umd.js",
-  "module": "./dist/vue-tw-kit.es.js",
+  "main": "./dist/vtw-ui.umd.js",
+  "module": "./dist/vtw-ui.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/vue-tw-kit.es.js",
-      "require": "./dist/vue-tw-kit.umd.js"
+      "import": "./dist/vtw-ui.es.js",
+      "require": "./dist/vtw-ui.umd.js"
     }
   },
   "author": "Dylan Kay",

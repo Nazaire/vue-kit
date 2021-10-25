@@ -36,7 +36,7 @@
 <script setup lang="ts">
 import { defineComponent, PropType } from "vue";
 import { buttonPromiseProps } from "./utils";
-import { PromiseContext } from "@vtw-toolkit/core";
+import { PromiseContext } from "@nazaire/vue-kit";
 import { Button } from "~/components/button";
 
 defineProps({

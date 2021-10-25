@@ -1,4 +1,4 @@
-import { makeStringEnum } from "@vtw-toolkit/core";
+import { makeStringEnum } from "@nazaire/vue-kit";
 
 export const BadgeColor = makeStringEnum({
   GRAY: "gray",
