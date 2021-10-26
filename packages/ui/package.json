@@ -32,6 +32,7 @@
     "@heroicons/vue": "^1.0.4",
     "lodash": "^4.17.21",
     "tailwindcss": "^2.2.16",
+    "@tailwindcss/forms": "^0.3.4",
     "vue": "^3.2.19",
     "vue-router": "^4.0.12"
   },
@@ -51,6 +52,7 @@
     "storybook": "^6.3.12",
     "storybook-vue3-router": "^1.0.5",
     "tailwindcss": "^2.2.17",
+    "@tailwindcss/forms": "^0.3.4",
     "typescript": "^4.4.4",
     "vite": "^2.6.10",
     "vite-plugin-dts": "^0.9.1",
