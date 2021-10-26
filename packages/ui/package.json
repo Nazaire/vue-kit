@@ -28,6 +28,7 @@
     "nanoid": "^3.1.30"
   },
   "peerDependencies": {
+    "@headlessui/vue": "^1.4.1",
     "@heroicons/vue": "^1.0.4",
     "lodash": "^4.17.21",
     "tailwindcss": "^2.2.16",
@@ -35,6 +36,7 @@
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
+    "@headlessui/vue": "^1.4.1",
     "@heroicons/vue": "^1.0.4",
     "@storybook/addon-actions": "^6.3.12",
     "@storybook/addon-essentials": "^6.3.12",
