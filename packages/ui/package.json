@@ -1,6 +1,6 @@
 {
   "name": "@nazaire/vtw-ui",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "./dist/vtw-ui.umd.js",
   "module": "./dist/vtw-ui.es.js",
