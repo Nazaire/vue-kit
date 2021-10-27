@@ -1,6 +1,7 @@
 export * from "./badge";
 export * from "./button";
 export * from "./button-promise";
+export * from "./error-block";
 export * from "./input-group";
 export * from "./input-text";
 export * from "./input-text-area";
