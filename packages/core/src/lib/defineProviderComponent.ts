@@ -5,12 +5,13 @@ import { defineComponent, h } from "vue";
  * @param setup
  * @returns
  */
-export function defineProviderComponent<T>(setup: () => void) {
+export function defineProviderComponent<T>(setup: () => T) {
   const component = defineComponent({
-    render() {
-      return h("div", this.$slots.default!());
+    setup(componentProps, { slots }) {
+      // capture the returned value and provide it as a prop
+      let result = setup();
+      return () => h("div", slots.default!(result));
     },
-    setup,
   });
   return component;
 }

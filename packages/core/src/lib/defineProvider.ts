@@ -42,7 +42,9 @@ type Provider<T> = [Component, () => T];
  */
 export function defineProvider<T>(id: string, provide: () => T): Provider<T> {
   const Component = defineProviderComponent(() => {
-    provideVue(id, provide());
+    let value = provide();
+    provideVue(id, value);
+    return value;
   });
   return [
     Component,
