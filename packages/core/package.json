@@ -1,6 +1,6 @@
 {
   "name": "@nazaire/vue-kit",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "./dist/vue-kit.umd.js",
   "module": "./dist/vue-kit.es.js",
